@@ -1,0 +1,65 @@
+header .container{
+    height: 100px;
+    /* border: 1px solid yellow; */
+    border-bottom: 1px solid gainsboro; 
+}
+header .container .row{
+    border: 1px solid red;
+    height: inherit;
+    width: 90%;
+    /* background-color: orange; */
+    margin: 0 auto ;
+    display: flex ;
+}
+.col1{
+    width: 15%;
+    height: inherit;
+    /* background-color: red; */
+
+}
+
+.col1 image{
+    padding: auto;
+    background-color: black;
+}
+.col2{
+    width: 70%;
+    height: inherit;
+    /* background-color: aqua; */
+}
+.col3{
+    width: 15%;
+    height: inherit;
+    /* background-color: blue; */
+}
+.col2 .nav ul{
+    /* background-color: blanchedalmond; */
+    padding: 10px;
+    position: relative;
+    top: 10px;
+
+}
+.col2 .nav ul li{
+    display: inline;
+    color: rgb(136, 7, 7);
+    /* background-color: black; */
+    padding: 10px;
+    margin-left: 10px;
+}
+.col3 {
+    background-color: hsl(350, 50% ,46% );
+    margin: 20px;
+    height: 50px;
+    width: 180px;
+    position: relative;
+    /* top: 10px; */
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+.col3  p{
+    position: relative;
+    /* top: 20px; */
+    text-align: center;
+
+}

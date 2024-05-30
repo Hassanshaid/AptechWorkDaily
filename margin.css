@@ -1,0 +1,29 @@
+#margin .container .row .col {
+    height: 200px ;
+    width: 200px ;
+    background-color:  aquamarine;
+}
+#margin .container .row .c1{
+    /* height: 400; */
+   /* width: 200; */
+    background-color:yellow ;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+#margin .container .row .c2{
+    /* height: 400; */
+    /* width: 200; */
+    background-color:red ;
+    margin-left: 220px;
+    margin-bottom: -200px;
+}
+#margin .container .row .c3{
+
+/* height: 400; */
+/* width: 200; */
+background-color:orange;
+margin-left: 440px ;
+margin-bottom: -400px;
+
+}
