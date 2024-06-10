@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body> 
+
+    <div class="container">
+        <div class="form-group">
+            <label for="">user email:</label>
+            <input type="email" id="userEmail">
+        </div>
+
+        <div class="form-group">
+            <label for="">password :</label>
+            <input type="text" id="userPassword">
+
+
+        </div>
+        <button onclick="getUserData()"> submit</button>
+        <h1></h1>
+    </div>
+    <script>
+        function getUserData() {
+            let uEmail = document.querySelector("#userEmail").value;
+            let uPassword = document.querySelector("#userPassword").value;
+            let userData = document.querySelector("h1");
+            userData.innerHTML = uEmail + "<br>" + uPassword;
+
+        }
+
+
+        
+    </script>
+</body>
+
+</html>
